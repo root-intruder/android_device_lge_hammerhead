@@ -105,7 +105,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_ROOT_EXTRA_FOLDERS := firmware persist
 
 # Define kernel config for inline building
-TARGET_KERNEL_CONFIG := lineageos_hammerhead_defconfig
+TARGET_KERNEL_CONFIG := rr_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
 BOARD_CHARGER_ENABLE_SUSPEND := true
